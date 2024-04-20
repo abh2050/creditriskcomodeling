@@ -2,9 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
-#import xgboost as xgb
-import sklearn
-from sklearn.ensemble import GradientBoostingClassifier
+import xgboost
 
 # Load the pre-trained GBT model
 model_filename = 'finalized_model.sav'
