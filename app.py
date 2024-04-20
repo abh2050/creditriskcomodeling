@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import pickle
 import xgboost as xgb
+import sklearn
 
 # Load the pre-trained GBT model
 model_filename = 'finalized_model.sav'
