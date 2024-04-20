@@ -1,6 +1,5 @@
-streamlit==1.25.0
-pandas==2.1.1
-numpy==1.25.2
+streamlit==1.29.0
+pandas==1.4.1
+numpy==1.22.3
 xgboost==2.0.3
-numba==0.48.0
-matplotlib==3.7.2
+matplotlib==3.5.1
