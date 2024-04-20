@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
-#import xgboost as xgb
+# import xgboost as xgb
 
 # Load the pre-trained GBT model
 model_filename = 'finalized_model.sav'
@@ -52,7 +52,7 @@ st.header("Loan Default Prediction")
 st.write(f"The predicted probability of loan default is: {prediction:.2%}")
 
 # Additional information
-if prediction > 0.5:
+if prediction > 0.4:
     st.warning("This loan is likely to default.")
 else:
     st.success("This loan is less likely to default.")
