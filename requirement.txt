@@ -1,5 +1,5 @@
 streamlit==1.25.0
 pandas==2.1.1
 numpy==1.25.2
-xgboost==1.7.6
+xgboost
 matplotlib==3.7.2
