@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 
 # Load the pre-trained GBT model
-model_filename = 'finalized_model.sav'
+model_filename = 'finalized_model.pkl'
 model = pickle.load(open(model_filename, 'rb'))
 
 # Title and description
