@@ -1,4 +1,5 @@
 # Credit Risk Analysis and Loan Default Prediction App
+https://creditriskmodeling.streamlit.app/
 ![](https://github.com/abh2050/creditriskcomodeling/blob/main/pic1.png)
 ![](https://github.com/abh2050/creditriskcomodeling/blob/main/pic3.png)
 This project consists of two components: a Jupyter notebook for credit risk analysis and a Streamlit app for real-time loan default prediction. The Jupyter notebook explores a credit loan dataset, applies data preprocessing techniques, and develops predictive models using logistic regression and gradient boosted trees (XGBoost). The Streamlit app allows users to interact with the pre-trained model and predict the probability of loan default based on loan characteristics.
